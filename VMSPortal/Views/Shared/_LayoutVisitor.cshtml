@@ -1,0 +1,119 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" style="font-size: medium;">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>VMS</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../../content/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../content/simple-sidebar.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
+
+
+    <link href="@Href("~/Content/bootstrap.min.css")" rel="stylesheet">  <!-- Bootstrap -->
+    <link href="@Href("~/Content/bootstrap-year-calendar.min.css")" rel="stylesheet"> <!-- bootstrap for calendar -->
+    <link href="@Href("~/Content/datatables.min.css")" rel="stylesheet" /> <!-- CSS for DataTables -->
+    <link href="@Href("~/Content/timepicki.css")" rel="stylesheet" /> <!-- CSS for TimePicker -->
+
+    <link href="@Href("~/Content/chosen.css")" rel="stylesheet" /> <!-- CSS for Chosen -->
+    <link href="@Href("~/Content/Site.css")" rel="stylesheet"> <!-- custom Stylesheet -->
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        DashBoard
+                    </a>
+                </li>
+
+                <li>
+                    <img src="../../Images/thf.png" alt="thf" />
+                </li>
+
+                <li>
+                    @Html.ActionLink("Home", "Previsitor", "PreVisitor")
+                </li>
+
+                <li>
+                    @Html.ActionLink("Add Visitor", "AddPrevisitor", "Previsitor")
+                </li>
+                <li>
+                    @Html.ActionLink("Add Multiple Visitor", "addMultipleVisitor", "PreVisitor")
+                </li>
+                <li>
+                    @Html.ActionLink("View Visitor", "ViewVisitor", "PreVisitor")
+                </li>
+                <li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        <text>
+                            @*Hello, @Html.ActionLink(User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })!*@
+                            @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                            }
+                        </text>
+                    }
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 style="text-align:center">Visitors Management System</h1>@RenderBody()
+                        <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Side Bar</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    @*2 edits*@
+    <script src="../../scripts/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../scripts/bootstrap.min.js"></script>
+    <script src="@Url.Content("/Scripts/jquery-1.10.2.min.js")" type="text/javascript"></script> <!-- Jquery -->
+
+
+
+    <script src="@Url.Content("/Scripts/bootstrap-year-calendar.min.js")" type="text/javascript"></script> <!-- Jquery for bootstrap calendar -->
+
+    <script src="@Url.Content("/Scripts/bootstrap.min.js")" type="text/javascript"></script> <!-- Bootstrap JavaScript-->
+    <script src="@Url.Content("/Scripts/jquery-ui-1.9.2.custom.js")" type="text/javascript"></script> <!-- Jquery UI Theme -->
+    <script src="@Url.Content("/Scripts/datatables.min.js")" type="text/javascript"></script> <!-- DataTables JS -->
+    <script src="@Url.Content("/Scripts/mark.min.js")" type="text/javascript"></script> <!-- JS for marking text -->
+    <script src="@Url.Content("/Scripts/modal.js")" type="text/javascript"></script> <!-- JS for modal making -->
+    <script src="@Url.Content("/Scripts/timepicki.js")" type="text/javascript"></script> <!-- TimePicker JavaScript -->
+    <script src="@Url.Content("/Scripts/chosen.jquery.js")" type="text/javascript"></script> <!-- Chosen JavaScript -->
+    <script type="text/javascript" src="@Url.Content("/Scripts/tableexport.js")"></script>
+    <script type="text/javascript" src="@Url.Content("/Scripts/jquery.base64.js")"></script>
+    <script src="@Url.Content("/Scripts/custom.js")" type="text/javascript"></script> <!-- custom JavaScript -->
+    @RenderSection("JS", required: false)
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+</html>

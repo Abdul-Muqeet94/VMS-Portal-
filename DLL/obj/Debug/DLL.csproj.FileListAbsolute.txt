@@ -1,0 +1,22 @@
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\DLL.dll.config
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\DLL.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\DLL.pdb
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\EntityFramework.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\EntityFramework.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\obj\Debug\DLL.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\obj\Debug\DLL.pdb
+C:\Users\user1\Documents\Visual Studio 2013\Projects\VMSPortal\DLL\obj\Debug\DLL.csprojResolveAssemblyReference.cache
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\obj\Debug\DLL.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\obj\Debug\DLL.pdb
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\DLL.dll.config
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\DLL.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\DLL.pdb
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\EntityFramework.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\EntityFramework.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\DLL\obj\Debug\DLL.csprojResolveAssemblyReference.cache
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\obj\Debug\DLL.Migrations.muqeet.resources
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\DLL\obj\Debug\DLL.csproj.GenerateResource.Cache

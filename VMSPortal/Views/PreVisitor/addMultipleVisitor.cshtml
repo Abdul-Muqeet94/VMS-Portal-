@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "addMultipleVisitor";
+    Layout = "~/Views/Shared/_LayoutVisitor.cshtml";
+}
+
+@model  List<BLL.ViewModels.AddMultipleVisitor>
+<h2>AddPreVisitor</h2>
+
+<div class="row">
+    <div class="form-group col-md-12">
+        <h5 style="font-weight: bold;">Register User</h5>
+
+        @using (Html.BeginForm("addMultipleVisitor", "PreVisitor", FormMethod.Post, new { id = "Visitor-form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+        <div><a href="#" id="addNew">Add New</a></div>
+    <div class="table-responsive">
+        <table class="table table-bordered" id="dataTable">
+
+            <tr >
+                <th>NIC</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Company</th>
+                <th>Contact No</th>
+                <th>Host</th>
+                <th>Host Email</th>
+                <th>From Date</th>
+                <th>to Date</th>
+                <th>Time</th>
+                @*<th></th>*@
+            </tr>
+
+            @if (Model != null && Model.Count > 0)
+{
+    int j = 0;
+    foreach (var i in Model)
+    {
+        <tr style="border:1px solid" >
+            
+            <td>@Html.TextBoxFor(a =>a[j].VNIC, new {@class=" form-control"}) </td>
+            <td>@Html.TextBoxFor(a => a[j].VfirstName, new { @class = " form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].VlastName, new { @class = " form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].Vaddress, new { @class = " form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].Vcompany, new { @class = " form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].VphoneNo, new { @class = " form-control" })</td>
+            <td>@Html.DropDownListFor(a => a[j].host_id, new SelectList(Model[0].hosts, "EmpID", "hFirst", 0), new { @class = "form-control" })</td>
+           
+            <td>@Html.TextBoxFor(a => a[j].host_email, new { @class = " form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].from_Date, new { @class = "datepicker form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].to_date, new { @class = "datepicker form-control" })</td>
+            <td>@Html.TextBoxFor(a => a[j].Time, new { @class = "timepicker form-control" })</td>
+            @*<td>
+                @if (j > 0)
+                {
+                    <a href="#" class="remove">Remove</a>
+                }
+            </td>*@
+        </tr>
+
+                j++;
+    }
+}
+        </table>
+    </div>
+            <input type="submit" id="vv" value="Save Bulk Data" />
+                    
+        }
+</div>
+           
+        @section JS {
+    
+            <script type="text/javascript" src="@Href("~/Scripts/chosen.ajaxaddition.jquery.js")"></script>
+            <script type="text/javascript" src="@Href("~/Scripts/monthpicker.js")"></script>
+    
+  
+        @Scripts.Render("~/bundles/jqueryval")
+<script language="javascript">
+   
+  
+    @*var result = @Html.Raw(Json.Encode(Model.visitorList))
+
+    $.ajax({
+        url: '@Url.Content("~/PreVisitor/addMultipleVisitor")',
+        type: "POST",
+        dataType: "json",
+        data: result,
+        //something else
+    });*@
+
+    $(document).ready(function () {
+        $(".datepicker").datepicker({ dateFormat: 'dd-mm-yy' });
+        $('.timepicker').timepicki();
+        //1. Add new row
+        $("#addNew").click(function (e) {
+            e.preventDefault();
+            var $tableBody = $("#dataTable");
+            var $trLast = $tableBody.find("tr:last");
+            var $trNew = $trLast.clone();
+            var suffix = $trNew.find(':input:first').prop('name').match(/\d+/);
+            $.each($trNew.find(':input'), function (i, val) {
+                // Replaced Name
+                var oldN = $(this).prop('name');
+                var newN = oldN.replace('[' + suffix + ']', '[' + (parseInt(suffix) + 1) + ']');
+                $(this).prop('name', newN);
+                //Replaced value
+                var type = $(this).prop('type');
+                if (type.toLowerCase() == "text") {
+                    $(this).prop('value', '');
+                }
+
+                // If you have another Type then replace with default value
+                $(this).removeClass("input-validation-error");
+
+
+            });
+            $trLast.after($trNew);
+
+            //Re-assign Validation
+            //var form = $("form")
+              //  .removeData("validator")
+            //    .removeData("unobtrusiveValidation");
+          //  $.validator.unobtrusive.parse(form);
+      //  });
+        });
+
+        // 2. Remove
+        $('a.remove').click(function (e) {
+            e.preventDefault();
+            $(this).parent().parent().remove();
+        });
+
+    });
+
+    </script>
+
+        }

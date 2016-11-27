@@ -1,0 +1,70 @@
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\BLL.dll.config
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\BLL.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\BLL.pdb
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DLL.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\WebMatrix.Data.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\WebMatrix.WebData.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\Mono.Math.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DLL.pdb
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\WebMatrix.Data.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\WebMatrix.WebData.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\bin\Debug\Mono.Math.xml
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\obj\Debug\BLL.dll
+C:\Users\user1\documents\visual studio 2013\Projects\VMSPortal\BLL\obj\Debug\BLL.pdb
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\BLL.dll.config
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\BLL.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\BLL.pdb
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DLL.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\EntityFramework.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\System.Web.Mvc.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\WebMatrix.Data.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\WebMatrix.WebData.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DLL.pdb
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\EntityFramework.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\System.Web.Mvc.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\WebMatrix.Data.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\bin\Debug\WebMatrix.WebData.xml
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\obj\Debug\BLL.dll
+C:\Users\usman\Downloads\Documents\vmswebportal\BLL\obj\Debug\BLL.pdb

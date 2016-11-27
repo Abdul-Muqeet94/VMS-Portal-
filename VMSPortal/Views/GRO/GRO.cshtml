@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "GRO";
+    Layout = "~/Views/Shared/_LayoutGRO.cshtml";
+}
+@model  BLL.ViewModels.DashboardElements
+<h2>GRO</h2>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-danger"><span class="label label-danger pull-right">@Model.visitorDay1 </span> @DateTime.Now.DayOfWeek.ToString()</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-success"><span class="label label-success pull-right">@Model.visitorDay2</span>@DateTime.Now.AddDays(1).DayOfWeek.ToString() </h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-primary"><span class="label label-primary pull-right">@Model.visitorDay3</span>@DateTime.Now.AddDays(2).DayOfWeek.ToString() </h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-success"><span class="label label-success pull-right">@Model.visitorDay4</span> @DateTime.Now.AddDays(3).DayOfWeek.ToString()</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-success"><span class="label label-success pull-right">@Model.visitorDay5</span> @DateTime.Now.AddDays(4).DayOfWeek.ToString()</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-success"><span class="label label-success pull-right">@Model.visitorDay6</span> @DateTime.Now.AddDays(5).DayOfWeek.ToString()</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well">
+                    <h4 class="text-success"><span class="label label-success pull-right">@Model.visitorDay7</span> @DateTime.Now.AddDays(6).DayOfWeek.ToString()</h4>
+                </div>
+            </div>
+        </div><!--/row-->
+    </div><!--/col-12-->
+</div><!--/row-->

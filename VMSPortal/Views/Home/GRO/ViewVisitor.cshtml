@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "ViewVisitor";
+    Layout = "~/Views/Shared/_LayoutGRO.cshtml";
+}
+
+@model  List<BLL.ViewModels.PreVisitors>
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    <table class="table table-bordered">
+        <tr>
+            <th>
+                Visitor Nic
+            </th>
+            <th>
+                Visitor First Name
+            </th>
+            <th>
+                Visitor Last Name
+            </th>
+            <th>
+                Visitor Contact#
+            </th>
+            <th>
+                Host Name
+            </th>
+            <th>
+                Host Email Address
+            </th>
+            <th>
+                Visiting Date
+            </th>
+            <th>
+                Visiting Time
+            </th>
+            <th>Created By</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VNIC)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VfirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VlastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VphoneNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.host_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.host_email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Time)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                </td>
+            </tr>
+        }
+
+    </table>
